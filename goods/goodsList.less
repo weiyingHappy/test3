@@ -1,0 +1,207 @@
+@import "comStyle.css";
+@width:1rem/150;
+.common(@w,@h){
+  width:@w*@width;
+  height:@h*@width;
+}
+.same(){
+  display: flex;
+  justify-content: space-around;
+  >span{
+    flex: 1;
+    display: block;
+    height: 68/2/75rem;
+    line-height: 68/2/75rem;
+    &:last-child{
+      text-align: right;
+    }
+  }
+}
+#test-order{
+  background: rgb(240,240,240);
+}
+#top{
+  padding: 0 1/2/75rem;
+  display: flex;
+  justify-content: center;
+  .top{
+
+    .common(748,40);
+    >img{
+      .common(748,40);
+    }
+  }
+}
+
+#addr{
+  padding:2/75rem 12/75rem;
+ // height: 270/2/75rem;
+  background: #fff;
+  font-size:14px;
+  >.title{
+    color:rgb(51,51,51);
+   height: 40/75rem;
+    border-bottom:1px solid rgb(240,240,240);
+    >i{
+      float: left;
+      .common(26,80);
+      margin-right:4/75rem;
+      background: url("img/car.png")no-repeat center center;
+      background-size: 13/75rem 23/2/75rem;
+    }
+    >span{
+      float: left;
+      height:40/75rem ;
+      line-height: 40/75rem;
+
+    }
+    >a{
+      float: right;
+      line-height: 40/75rem;
+      height: 40/75rem;
+    }
+  }
+  >.addr>div{
+    height: 60/75rem;
+    background: url("img/box.png") no-repeat center bottom;
+    background-size: 87/2/75rem 89/2/75rem;
+    >a{
+      float: right;
+      margin-top:41/75rem;
+      >img{
+        .common(13,22);
+      }
+    }
+  }
+  .addr>p{
+    text-align: center;
+    height: 34/75rem;
+    line-height: 34/75rem;
+    color:rgb(204,204,204);
+  }
+}
+
+#goods-list{
+  margin-top:10/75rem;
+  padding:12/75rem ;
+  background: #fff;
+  >.detail{
+    font-size: 13px;
+    height: 90/75rem;
+    display: flex;
+    >div:first-child{
+      .common(180,180);
+      >img{
+        .common(180,180);
+      }
+    }
+    >div:last-child{
+      .common(750-180,180);
+      padding:7/75rem 10/75rem 0 10/75rem;
+      >p{
+        height: 30/75rem;
+        margin:0;
+      }
+      >span.color {
+        display: block;
+        margin: 6/75rem 0 16/75rem 0;
+      }
+      >span.sale{
+          padding:2/75rem 6/75rem;
+          border:1px solid rgb(234,68,90);
+          color:rgb(234,68,90);
+          border-radius:3/75rem;
+        }
+
+
+    }
+
+  }
+  >p{
+    text-align: right;
+    font-size: 16/75rem;
+    color:rgb(234,68,90);
+  }
+  >.method{
+  .same();
+  }
+  >.number{
+    display: flex;
+    >span{
+      display: block;
+     flex:1;
+      height: 68/2/75rem;
+      line-height: 68/2/75rem;
+    }
+    >div{
+      flex: 1;
+      text-align: right;
+      height: 68/2/75rem;
+      line-height: 68/2/75rem;
+      >button{
+        border: 1px solid rgb(240,240,240);
+        background: #fff;
+        color:rgb(153,153,153);
+        .common(60,60);
+        &.active{
+          border-color:rgb(51,51,51);
+          color:rgb(51,51,51);
+        }
+      }
+
+      >span{padding:0 5/75rem;}
+    }
+  }
+}
+#inf{
+  margin-top:10/75rem;
+  padding:12/75rem ;
+  background: #fff;
+  >.inf{
+    .same;
+  }
+}
+
+#money{
+  margin-top:10/75rem;
+  padding:12/75rem ;
+  background: #fff;
+  >.onsale{
+    .same
+  }
+  >.run-money{
+    .same;
+  }
+  >.total{
+    .same;
+  }
+}
+
+#post-order {
+  margin-top: 25/75rem;
+  padding-left:12/75rem;
+  background: #fff;
+  >div{
+    display: flex;
+    justify-content: space-around;
+
+    > span {
+      display: block;
+      .common(396,68);
+      line-height: 68/2/75rem;
+      >i{
+        color:rgb(234,68,90);
+      }
+      >b{
+     color: rgb(234,68,90);
+      }
+    }
+    > div {
+      background: rgb(234,68,90);
+      width: 330/2/75rem;
+      text-align: center;
+      height: 68/2/75rem;
+      line-height: 68/2/75rem;
+      color:#fff;
+    }
+} }

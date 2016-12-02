@@ -1,0 +1,134 @@
+img {
+  vertical-align: bottom;
+}
+#head {
+  background: url("img/macBook_02.png") no-repeat;
+  background-size: cover;
+}
+#head .con .top {
+  padding: 0.16rem;
+}
+#head .con .top > img {
+  width: 9.68rem;
+  height: 0.28rem;
+}
+#head .con .prev {
+  padding: 0.26666667rem;
+}
+#head .con .prev img {
+  width: 0.25333333rem;
+  height: 0.46666667rem;
+}
+#head .title {
+  padding-top: 2.8rem;
+  font-size: 24px;
+  color: #fff;
+}
+[data-dpr='1'] #head .title {
+  font-size: 12px;
+}
+[data-dpr='3'] #head .title {
+  font-size: 36px;
+}
+#head .title > p {
+  padding: 0 0.26666667rem;
+  height: 0.77333333rem;
+  line-height: 0.77333333rem;
+  background: rgba(125, 125, 125, 0.5);
+}
+.operate {
+  padding-top: 0.08rem;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+}
+.operate > div {
+  padding: 0 0.53333333rem;
+  background: #fff;
+  width: 2.23333333rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+}
+.operate > div.m {
+  text-align: center;
+}
+.operate > div.r {
+  text-align: right;
+}
+.operate > div > span {
+  display: inline-block;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  color: #999999;
+  font-size: 26px;
+}
+[data-dpr='1'] .operate > div > span {
+  font-size: 13px;
+}
+[data-dpr='3'] .operate > div > span {
+  font-size: 39px;
+}
+.operate > div > span > i {
+  float: right;
+  width: 0.48rem;
+  height: 1.06666667rem;
+  background: url("img/d.png") no-repeat center center;
+  background-size: 0.16rem 0.08rem;
+}
+.operate > div > span > i.last {
+  background: url("img/list.png") no-repeat center center;
+  background-size: 0.45333333rem 0.45333333rem;
+}
+.operate > div > span.active {
+  color: red;
+}
+.show {
+  padding-top: 0.13333333rem;
+  height: 6.90666667rem;
+  background: #f0f0f0;
+}
+.show > div {
+  position: relative;
+  float: left;
+  background: #fff;
+  width: 4.93333333rem;
+  padding-top: 0.90666667rem;
+  height: 6rem;
+}
+.show > div > span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.93333333rem;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  text-align: center;
+  color: #fff;
+  background: red;
+}
+.show > div img {
+  width: 4.4rem;
+  height: 3.14666667rem;
+}
+.show > div > dl {
+  padding-top: 0.88rem;
+}
+.show > div > dl dt {
+  text-align: center;
+}
+.show > div > dl dd {
+  padding: 0 0.26666667rem;
+}
+.show > div > dl dd p {
+  width: 4.4rem;
+  line-height: 0.58666667rem;
+  overflow: hidden;
+  height: 1.17333333rem;
+}
+.show > div > dl dd span {
+  color: red;
+  margin-right: 0.13333333rem;
+}
+.show > div:last-child {
+  float: right;
+}

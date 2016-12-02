@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+   <link rel="stylesheet" href="goodsList.css">
+    <title>Title</title>
+</head>
+<body>
+<div id="top">
+    <div class="top">
+        <img src="img/top.png" alt="">
+    </div>
+</div>
+<div id="test-order">
+    <div id="addr">
+        <div class="title">
+            <i></i><span>收货地址</span>
+            <a href="">请添加</a>
+        </div>
+        <div class="addr">
+            <div>
+                <a href="#"><img src="img/next.png" alt=""></a>
+            </div>
+            <p>您还没有收货地址，请点击这里添加~</p>
+        </div>
+    </div>
+    <div id="goods-list">
+        <div class="detail">
+            <div><img src="img/phone.png" alt=""></div>
+            <div>
+                <p>magni quibusdam soluta velit?dteertgyugiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiyuftttttttttttttttttrtytby656</p>
+                <span class="color">颜色：金色</span>
+                <span class="sale">费率五折</span>
+            </div>
+        </div>
+        <p><b>￥6080</b></p>
+        <div class="method">
+            <span>配送方式</span>
+            <span>快递运费</span>
+        </div>
+        <div class="number">
+            <span>购买数量</span>
+            <div>
+                <button>-</button><span>1</span><button class="active">+</button>
+            </div>
+        </div>
+    </div>
+    <div id="inf">
+        <div class="inf">
+            <span>发票信息</span>
+            <span>不开具发票</span>
+        </div>
+    </div>
+    <div id="money">
+        <div class="total">
+            <span>总金额</span>
+            <span>￥6080</span>
+        </div>
+        <div class="run-money">
+            <span>运费</span>
+            <span>￥0</span>
+        </div>
+        <div class="onsale">
+            <span>优惠</span>
+            <span>￥0</span>
+        </div>
+
+    </div>
+    <div id="post-order">
+        <div class="post-order">
+            <span>应付金额 <i>￥</i><b>98</b></span>
+            <div>提交订单</div>
+        </div>
+    </div>
+</div>
+<div id="money-station">
+
+</div>
+
+<script>
+    (function (doc, win) {
+    var docEl = doc.documentElement,
+    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+    recalc = function () {
+    var clientWidth = docEl.clientWidth;
+    if (!clientWidth) return;
+    if(window.devicePixelRatio==1){
+
+    }
+    if(window.devicePixelRatio==2){
+
+    }
+    if(window.devicePixelRatio==3){
+
+    }
+    docEl.style.fontSize =clientWidth /10 *2 + 'px';
+
+    document.body.fontSize="12px";
+    console.log(docEl.style.fontSize);
+    // docEl.style.fontSize = 75 * (clientWidth / 750) + 'px';
+    };
+    if (!doc.addEventListener) return;
+    win.addEventListener(resizeEvt, recalc, false);
+    doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</body>
+</html>

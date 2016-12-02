@@ -1,0 +1,257 @@
+@import url("comStyle.css");
+img {
+  vertical-align: bottom;
+}
+#top {
+  padding: 0 0.01333333rem;
+  display: flex;
+  justify-content: center;
+}
+#top .top {
+  width: 9.97333333rem;
+  height: 0.53333333rem;
+}
+#top .top > img {
+  width: 9.97333333rem;
+  height: 0.53333333rem;
+}
+.title {
+  padding: 0.37333333rem;
+  line-height: 0.56rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.title > a {
+  display: inline-block;
+  width: 0.26666667rem;
+  height: 0.56rem;
+}
+.title > span {
+  display: inline-block;
+  height: 0.56rem;
+  margin-left: 3.68rem;
+  font-size: 32px;
+  color: black;
+}
+[data-dpr='1'] .title > span {
+  font-size: 16px;
+}
+[data-dpr='3'] .title > span {
+  font-size: 48px;
+}
+.about-money {
+  padding: 0 0.37333333rem;
+  height: 2.4rem;
+  margin-bottom: 0.26666667rem;
+}
+.about-money > div {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 26px;
+  color: #8c8c8c;
+}
+[data-dpr='1'] .about-money > div {
+  font-size: 13px;
+}
+[data-dpr='3'] .about-money > div {
+  font-size: 39px;
+}
+.about-money > div > b {
+  color: #333333;
+  margin-left: 0.8rem;
+}
+.about-money > div.order-amount {
+  border-bottom: 1px solid #f0f0f0;
+}
+#installment {
+  font-size: 26px;
+  color: #666666;
+  padding: 0.13333333rem 0.26666667rem;
+}
+[data-dpr='1'] #installment {
+  font-size: 13px;
+}
+[data-dpr='3'] #installment {
+  font-size: 39px;
+}
+#installment > p {
+  height: 0.88rem;
+  line-height: 0.88rem;
+}
+#installment > div.row {
+  margin-bottom: 0.26666667rem;
+  display: flex;
+  justify-content: space-between;
+}
+#installment > div.row > div {
+  width: 2.93333333rem;
+  height: 1.81333333rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 0.06666667rem;
+}
+#installment > div.row > div.active {
+  border-color: #ea445a;
+}
+#installment > div.row > div.active > p {
+  color: #ea445a;
+}
+#installment > div.row > div.active > p:first-child > i {
+  visibility: visible;
+}
+#installment > div.row > div > p {
+  text-align: center;
+}
+#installment > div.row > div > p:first-child {
+  line-height: 0.8rem;
+  position: relative;
+}
+#installment > div.row > div > p:first-child > i {
+  background: url("img/yes.png") no-repeat;
+  background-size: 0.42666667rem 0.32rem;
+  position: absolute;
+  width: 0.42666667rem;
+  height: 0.32rem;
+  right: 0.18918919rem;
+  top: 0.16rem;
+  visibility: hidden;
+}
+#installment > .reback-total {
+  display: flex;
+  justify-content: space-around;
+}
+#installment > .reback-total > span {
+  flex: 1;
+  display: block;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+}
+#installment > .reback-total > span:last-child {
+  text-align: right;
+}
+.btn {
+  margin-top: 0.4rem;
+  padding: 0 0.26666667rem;
+}
+.btn > div {
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  border-radius: 0.08rem;
+  height: 1.2rem;
+  background: #ea445a;
+  line-height: 1.2rem;
+}
+[data-dpr='1'] .btn > div {
+  font-size: 13px;
+}
+[data-dpr='3'] .btn > div {
+  font-size: 39px;
+}
+#sel {
+  padding: 0 0.26666667rem;
+}
+#sel > .select {
+  line-height: 1.2rem;
+  color: #333333;
+  height: 1.2rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+#sel > .select.active > i {
+  visibility: visible;
+}
+#sel > .select > i {
+  visibility: hidden;
+  float: right;
+  width: 0.42666667rem;
+  height: 1.2rem;
+  background: url("img/yes.png") no-repeat center center;
+  background-size: 0.42666667rem 0.32rem;
+}
+#sel > .select > span {
+  float: left;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 24px;
+}
+[data-dpr='1'] #sel > .select > span {
+  font-size: 12px;
+}
+[data-dpr='3'] #sel > .select > span {
+  font-size: 36px;
+}
+.inf {
+  margin-top: 0.26666667rem;
+  padding: 0 0.26666667rem;
+  background: #fff;
+}
+.inf > span {
+  display: block;
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+.suc {
+  padding: 0.72rem 0.26666667rem;
+}
+.suc > .suc-pic {
+  border-bottom: 1px solid #f0f0f0;
+}
+.suc > .suc-pic > p {
+  text-align: center;
+}
+.suc > .suc-pic > p > img {
+  width: 1.44rem;
+  height: 1.44rem;
+}
+.suc > .suc-pic > p:nth-child(2) {
+  line-height: 0.8rem;
+  height: 0.8rem;
+}
+.suc > .suc-pic > div {
+  display: flex;
+  justify-content: space-around;
+}
+.suc > .suc-pic > div > div {
+  background: url("img/border.png") no-repeat;
+  background-size: contain;
+  width: 3.2rem;
+  height: 0.90666667rem;
+  text-align: center;
+  line-height: 0.90666667rem;
+}
+.similar {
+  font-size: 26px;
+}
+[data-dpr='1'] .similar {
+  font-size: 13px;
+}
+[data-dpr='3'] .similar {
+  font-size: 39px;
+}
+.similar > p {
+  padding: 0 0.26666667rem;
+  text-align: center;
+  height: 0.90666667rem;
+  line-height: 0.90666667rem;
+}
+.similar > div {
+  padding-top: 0.26666667rem;
+  width: 999999rem;
+}
+.similar > div > dl {
+  float: left;
+  width: 3.73333333rem;
+}
+.similar > div > dl > dt {
+  width: 3.73333333rem;
+  height: 3.73333333rem;
+}
+.similar > div > dl > dt > img {
+  width: 3.73333333rem;
+  height: 3.73333333rem;
+}
+.similar > div > dl > dd {
+  line-height: 0.58666667rem;
+  text-align: center;
+}
+.similar > div > dl > dd > span {
+  color: #ea445a;
+}

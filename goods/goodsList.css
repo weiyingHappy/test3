@@ -1,0 +1,239 @@
+@import "comStyle.css";
+#test-order {
+  background: #f0f0f0;
+}
+#top {
+  padding: 0 0.00666667rem;
+  display: flex;
+  justify-content: center;
+}
+#top .top {
+  width: 4.98666667rem;
+  height: 0.26666667rem;
+}
+#top .top > img {
+  width: 4.98666667rem;
+  height: 0.26666667rem;
+}
+#addr {
+  padding: 0.02666667rem 0.16rem;
+  background: #fff;
+  font-size: 14px;
+}
+#addr > .title {
+  color: #333333;
+  height: 0.53333333rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+#addr > .title > i {
+  float: left;
+  width: 0.17333333rem;
+  height: 0.53333333rem;
+  margin-right: 0.05333333rem;
+  background: url("img/car.png") no-repeat center center;
+  background-size: 0.17333333rem 0.15333333rem;
+}
+#addr > .title > span {
+  float: left;
+  height: 0.53333333rem;
+  line-height: 0.53333333rem;
+}
+#addr > .title > a {
+  float: right;
+  line-height: 0.53333333rem;
+  height: 0.53333333rem;
+}
+#addr > .addr > div {
+  height: 0.8rem;
+  background: url("img/box.png") no-repeat center bottom;
+  background-size: 0.58rem 0.59333333rem;
+}
+#addr > .addr > div > a {
+  float: right;
+  margin-top: 0.54666667rem;
+}
+#addr > .addr > div > a > img {
+  width: 0.08666667rem;
+  height: 0.14666667rem;
+}
+#addr .addr > p {
+  text-align: center;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+  color: #cccccc;
+}
+#goods-list {
+  margin-top: 0.13333333rem;
+  padding: 0.16rem;
+  background: #fff;
+}
+#goods-list > .detail {
+  font-size: 13px;
+  height: 1.2rem;
+  display: flex;
+}
+#goods-list > .detail > div:first-child {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+#goods-list > .detail > div:first-child > img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+#goods-list > .detail > div:last-child {
+  width: 3.8rem;
+  height: 1.2rem;
+  padding: 0.09333333rem 0.13333333rem 0 0.13333333rem;
+}
+#goods-list > .detail > div:last-child > p {
+  height: 0.4rem;
+  margin: 0;
+}
+#goods-list > .detail > div:last-child > span.color {
+  display: block;
+  margin: 0.08rem 0 0.21333333rem 0;
+}
+#goods-list > .detail > div:last-child > span.sale {
+  padding: 0.02666667rem 0.08rem;
+  border: 1px solid #ea445a;
+  color: #ea445a;
+  border-radius: 0.04rem;
+}
+#goods-list > p {
+  text-align: right;
+  font-size: 0.21333333rem;
+  color: #ea445a;
+}
+#goods-list > .method {
+  display: flex;
+  justify-content: space-around;
+}
+#goods-list > .method > span {
+  flex: 1;
+  display: block;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+}
+#goods-list > .method > span:last-child {
+  text-align: right;
+}
+#goods-list > .number {
+  display: flex;
+}
+#goods-list > .number > span {
+  display: block;
+  flex: 1;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+}
+#goods-list > .number > div {
+  flex: 1;
+  text-align: right;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+}
+#goods-list > .number > div > button {
+  border: 1px solid #f0f0f0;
+  background: #fff;
+  color: #999999;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+#goods-list > .number > div > button.active {
+  border-color: #333333;
+  color: #333333;
+}
+#goods-list > .number > div > span {
+  padding: 0 0.06666667rem;
+}
+#inf {
+  margin-top: 0.13333333rem;
+  padding: 0.16rem;
+  background: #fff;
+}
+#inf > .inf {
+  display: flex;
+  justify-content: space-around;
+}
+#inf > .inf > span {
+  flex: 1;
+  display: block;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+}
+#inf > .inf > span:last-child {
+  text-align: right;
+}
+#money {
+  margin-top: 0.13333333rem;
+  padding: 0.16rem;
+  background: #fff;
+}
+#money > .onsale {
+  display: flex;
+  justify-content: space-around;
+}
+#money > .onsale > span {
+  flex: 1;
+  display: block;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+}
+#money > .onsale > span:last-child {
+  text-align: right;
+}
+#money > .run-money {
+  display: flex;
+  justify-content: space-around;
+}
+#money > .run-money > span {
+  flex: 1;
+  display: block;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+}
+#money > .run-money > span:last-child {
+  text-align: right;
+}
+#money > .total {
+  display: flex;
+  justify-content: space-around;
+}
+#money > .total > span {
+  flex: 1;
+  display: block;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+}
+#money > .total > span:last-child {
+  text-align: right;
+}
+#post-order {
+  margin-top: 0.33333333rem;
+  padding-left: 0.16rem;
+  background: #fff;
+}
+#post-order > div {
+  display: flex;
+  justify-content: space-around;
+}
+#post-order > div > span {
+  display: block;
+  width: 2.64rem;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+}
+#post-order > div > span > i {
+  color: #ea445a;
+}
+#post-order > div > span > b {
+  color: #ea445a;
+}
+#post-order > div > div {
+  background: #ea445a;
+  width: 2.2rem;
+  text-align: center;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+  color: #fff;
+}

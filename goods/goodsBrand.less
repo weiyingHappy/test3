@@ -1,0 +1,143 @@
+img{
+  vertical-align: bottom;
+}
+//*{
+//  -webkit-box-sizing: border-box;
+//  -moz-box-sizing: border-box;
+//  box-sizing: border-box;
+//}
+@width:1/75rem;
+.common(@w,@h){
+  width:@w*@width;
+  height:@h*@width;
+}
+#head{
+  background: url("img/macBook_02.png") no-repeat;
+  background-size: cover;
+  .con{
+    .top{
+      padding:12/75rem;
+      >img{
+        .common(726,21);
+      }
+    }
+    .prev{
+      padding:20/75rem;
+      img{
+        .common(19,35);
+      }
+    }
+  }
+.title{
+padding-top:210/75rem;
+  font-size:24px;
+  color:#fff;
+  [data-dpr='1'] &{
+    font-size:12px;
+  }
+  [data-dpr='3'] &{
+    font-size:36px;
+  }
+  >p {
+  padding: 0 20/75rem;
+  height: 58/75rem;
+  line-height: 58/75rem;
+    background: rgba(125,125,125,0.5);
+  }
+}
+}
+.operate{
+  padding-top:6/75rem;
+  background: rgb(240,240,240);
+  display: flex;
+  justify-content: space-between;
+  >div{
+    padding: 0  40/75rem;
+    background: #fff;
+    .common(670/4,80);
+    line-height: 80/75rem;
+    &.m{
+      text-align: center;
+    }
+    &.r{
+      text-align: right;
+    }
+    >span{
+      display: inline-block;
+      height: 80/75rem;
+      line-height: 80/75rem;
+      color:rgb(153,153,153);
+      font-size: 26px;
+      [data-dpr='1'] &{
+        font-size:13px;
+      }
+      [data-dpr='3'] &{
+        font-size:39px;
+      }
+      >i{
+        float: right;
+        width: 36/75rem;
+        height: 80/75rem;
+        background: url("img/d.png")no-repeat center center;
+        background-size: 12/75rem 6/75rem;
+        &.last{
+          background: url("img/list.png") no-repeat center center ;
+          background-size: 34/75rem 34/75rem;
+        }
+      }
+      &.active{
+        color:red;
+      }
+    }
+  }
+}
+
+.show{
+  padding-top:10/75rem;
+  height: 518/75rem;
+  background: rgb(240,240,240);
+
+  >div{
+    position: relative;
+    float: left;
+    background: #fff;
+    width: 370/75rem;
+    padding-top: 68/75rem;
+    height:450/75rem ;
+    >span{
+      position: absolute;
+      top:0;
+      left: 0;
+     .common(70,48);
+      line-height: 48/75rem;
+      text-align: center;
+      color:#fff;
+      background: red;
+    }
+    img{
+      .common(330,236);
+    }
+    >dl{
+      padding-top:66/75rem;
+      dt{
+        text-align: center;
+      }
+      dd{padding: 0 20/75rem;
+        p{
+          width: 330/75rem;
+          line-height: 44/75rem;
+          overflow: hidden;
+          height: 88/75rem;
+        }
+        span{
+          color:red;
+          margin-right:10/75rem;
+        }
+      }
+
+    }
+    &:last-child{
+      float: right;
+    }
+  }
+}
